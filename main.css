@@ -1,19 +1,8 @@
-/* import a web font */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
 
-/*********************************
- * Build Helpers
- *********************************/
-/* give each element a border */
-
-/* shrink images for placement */
 img {
     width: 100px;
 }
-
-/*********************************
-* General
-*********************************/
 
 body {
     background-color: snow;
@@ -35,18 +24,15 @@ h1 {
     font-family: 'Fredoka One', cursive;
 }
 
-/*********************************
- * Header
- *********************************/
- header {
+header {
     width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-  }                  
+}                  
  
-  header div {
+header div {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -62,21 +48,13 @@ header div:last-child {
     align-items: center;
 }                          
 
-
-/*********************************
- * Container
- *********************************/
  .container {
     display: flex;
     width: 90%;
     margin: auto;
     justify-content: space-between;
-  }
+}
  
-
-/*********************************
- * Aside/Nav
- *********************************/ 
  aside {
     flex-basis: 15%;
     min-width: 15%;
@@ -92,20 +70,18 @@ li {
     text-align: left;
 }
 
-/*********************************
- * Main
- *********************************/
  main {
     width: 85%;
     flex-basis: 85%;
-   }                  
+}                  
   
-   div[class$='row']  {
+div[class$='row']  {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1em;
-  }
+}
+  
  .top-row img {
     width: 100%;
  }
@@ -115,7 +91,7 @@ li {
  .bottom-row img {
    width: 32%;
  }                                  
-
-/*********************************
-* Footer
-*********************************/              
+      
+h2 {
+    text-align: right;
+ }
